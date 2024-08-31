@@ -1,0 +1,89 @@
+.register{
+    height: 70vh;
+    background-image: url("../cards.png");
+    background-size: cover;
+    color: white;
+    text-shadow: 0 2px 8px black;
+}
+
+.register h1{
+    text-align: center;
+    padding: max(2.2vw,24px);
+    font-size: max(25px,3.3vw);
+}
+
+.register pre{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.open{
+    width: max(1.2vw,15px);
+}
+
+.content{
+    padding: clamp(10px,1.5rem,60px) 11%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .text{
+    max-width: 40%;
+}
+
+.content .text p{
+    font-size: max(18px, 2vw);
+    font-weight: 600;
+}
+
+.content .button{
+    width: fit-content;
+    margin: 15px 0;
+    padding: 10px 25px;
+    padding-top: 6px;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(226, 171, 52);
+    border-radius: 10vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color: rgb(175, 130, 31);
+    transform: scale(1.1);
+}
+
+.text pre{
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text pre:hover{
+    color: rgb(255, 218, 139);
+}
+
+.date{
+    max-width: 25%;
+    border-left: max(5px,0.6vw) solid white;
+    padding: 1rem;
+    padding-top: 0;
+    overflow: hidden;
+}
+
+.date p {
+    position: relative;
+    font-size: max(26px,4vw);
+    font-weight: 650;
+    color: rgb(226, 171, 52);
+    animation: Bar 2s ease-out;
+}
+
+@keyframes Bar{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}

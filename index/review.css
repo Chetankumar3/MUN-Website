@@ -1,0 +1,36 @@
+.review{
+    min-height: 70vh;
+    background-image: url("../review.jpg");
+    background-size: cover;
+    background-position: top center;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: clamp(10px,1.5rem,60px) 11%;
+}
+
+.review .part1{
+    max-width: 35%;
+    font-size: max(3vw,24px);
+    font-weight: 700;
+}
+
+#quotes{
+    max-width: 15%;
+}
+
+.review .star{
+    color: gold;
+    font-size: max(1.5vw,18px);
+}
+
+.review .part2{
+    max-width: 50%;
+}
+
+.review .text{
+    font-size: max(1.4vw,14px);
+    padding: 1.7vw 0;
+}
